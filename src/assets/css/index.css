@@ -3,6 +3,9 @@ html, body, #app {
   font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", arial,sans-serif;
   font-size: 14px;
 }
+body{
+  overflow-x: hidden;
+}
 * {
   box-sizing: border-box;
 }

@@ -39,7 +39,7 @@ export default {
         opacity: .7;
       }
       &:hover{
-        opacity: .8;
+        color: #547834;
         &:after{
           width: 100%;
         }
