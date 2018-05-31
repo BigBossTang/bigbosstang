@@ -2,7 +2,7 @@
   <div class="avatar-wrap">
     <div class="avatar" :style="'height:'+size+'px;width:'+size+'px;line-height:'+size+'px;'">
       <img v-if="this.$store.state.userInfo.img_url" :style="'height:'+size+'px;width:'+size+'px;'" :src="this.$store.state.userInfo.img_url" />
-      <span v-else>未登录</span>
+      <span @click="$router.push('/login')" v-else>未登录</span>
     </div>
     <span v-if="config.more&&this.$store.state.userInfo.img_url"  :class="{'more-icon':true}"></span>
     <div v-if="config.more&&this.$store.state.userInfo.img_url" class="open-wrap" :style="'top:'+(size+15)+'px'">

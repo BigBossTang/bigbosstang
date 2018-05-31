@@ -11,14 +11,22 @@ export default new Router({
       name: 'main',
       component: () =>
         import("@/pages/index.vue"),
-      redirect:'',
+      redirect:'/',
       children:[
         {
           path: '/',
           name: 'home',
           component: () =>
             import("@/pages/home/index.vue"),
-      }
+      },
+        { path: '/login',
+          name:'login',
+          component: () =>
+            import("@/pages/login/index.vue")
+        },
+        { path: '*',name:'notFound', component: () =>
+            import("@/pages/404.vue")
+        }
       ]
     }
   ]

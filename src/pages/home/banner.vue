@@ -94,7 +94,7 @@ export default {
     position: relative;
     padding: 20px;
     border-radius: 4px;
-    border: 1px solid #2c3e5054;
+    border: 1px solid #bccab2;
     h3 {
       text-align: center;
       padding: 10px 0 20px;

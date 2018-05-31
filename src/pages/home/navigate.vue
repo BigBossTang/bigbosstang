@@ -1,6 +1,6 @@
 <template>
     <div class="nav-wrap">
-    <ul class="main"><li>首页</li><li>文章</li><li>贴图</li><li>我的</li></ul>
+    <ul class="main"><li>首页</li><li>写文</li><li>贴图</li><li>我的</li></ul>
     </div>
 </template>
 
